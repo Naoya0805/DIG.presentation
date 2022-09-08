@@ -34,7 +34,7 @@ h1 {
   width : 170px;
   height : 200px;
   position: absolute;
-  top: 75%;
+  top: 7%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
