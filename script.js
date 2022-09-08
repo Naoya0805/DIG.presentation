@@ -89,14 +89,14 @@ const quiz = [
   }
 
 
-//カウンタを追加  
-let count = 0; //カウントの初期値
-timerID = setInterval('countup()',1000); //1秒毎にcountup()を呼び出し
+// //カウンタを追加  
+// let count = 0; //カウントの初期値
+// timerID = setInterval('countup()',1000); //1秒毎にcountup()を呼び出し
   
-function countup() {
-    count++;
-    document.form_count.counter.value = count + "秒経過";
-  }
+// function countup() {
+//     count++;
+//     document.form_count.counter.value = count + "秒経過";
+//   }
 
 $(window).on("load", function () {
     $(".js_trigger_sample").on("click", function () {
