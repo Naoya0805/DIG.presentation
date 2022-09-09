@@ -38,3 +38,16 @@ h1 {
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
+.hidden_hopper {
+width: 5px; /*画像の幅*/
+height: 5px; /*画像の高さ*/
+transition-duration: 0.5s; /*変化の時間*/
+position: absolute;
+top: 7%;
+left: 51%;
+}
+.hidden_hopper:hover {
+transform: scale(18,18); /*画像の拡大*/
+cursor: pointer; /*カーソルをポインターにする*/ 
+
+}
